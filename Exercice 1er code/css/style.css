@@ -1,0 +1,11 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+h1 {
+color: blue;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

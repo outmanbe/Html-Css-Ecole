@@ -1,0 +1,57 @@
+.container {
+width: 850px; height: 1000px;
+margin: 0 auto;
+}
+
+.box1 {
+background-color: red;
+width: 200px; height: 200px;
+float: left;
+}
+
+.box2 {
+background-color: pink;
+width: 650px; height: 100px;
+float: right;
+}
+
+.box3 {
+background-color: yellow;
+width: 650px; height: 100px;
+float: right;
+}
+
+.box4 {
+    background-color: white;
+    width: 850px; height: 100px;
+    float: left;
+}
+
+.box5 {
+    background-color: blueviolet;
+    width: 650px; height: 500px;
+    float: left;
+}
+
+.box6 {
+background-color: grey;
+width: 200px; height: 500px;
+float: right;
+}
+
+.box7 {
+background-color: rgb(255, 0, 0);
+width: 850px; height:300px;
+float: left;
+}
+
+body{
+    width: 100%;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+      width: 100%;
+    }
+}
